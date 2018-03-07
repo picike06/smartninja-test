@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Introduction to css</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    .pelda2{
+      color: blue;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="" method="get">
+            <label for="GET-name">Name:</label>
+            <input id="GET-name" type="text" name="name">
+            <input type="submit" value="Save">
+        </form>
+
+        <form action="" method="post">
+            <label for="POST-name">Name:</label>
+            <input id="POST-name" type="text" name="name">
+            <input type="submit" value="Save">
+        </form>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend>Title</legend>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Click me</label>
+            </fieldset>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <table border=1 style="width:500px; border: 1px solid;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Telephone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jack</td>
+                    <td>Sales</td>
+                    <td>555-5555</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Admin</td>
+                    <td>555-5555</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>Sales</td>
+                    <td>555-5555</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>Total</td>
+                    <td>Total</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <hr>
+    <div id="content-1">
+        <h1 class="fancy-h1 pelda">Cupcake soufflé</h1>
+        <p style="color: red" class="pelda">Cupcake soufflé cupcake marzipan jelly beans tart pudding ice cream sesame snaps. Icing sesame snaps jelly. Candy canes croissant marzipan tiramisu candy gummi bears topping chocolate bar.</p>
+    </div>
+    <div id="content-2">
+        <h1 class="pelda2">Cheesecake oat cake </h1>
+        <p class="pelda2">Cheesecake oat cake pudding sweet pie. Cake dragée biscuit dessert croissant cheesecake dragée jujubes brownie. Chocolate gummi bears dragée biscuit halvah sweet. Lollipop lemon drops donut pie.</p>
+    </div>
+</body>
+</html>
